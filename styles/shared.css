@@ -18,6 +18,11 @@ html {
     font-family: "NotoSans-Regular", sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 footer {
     background-image: url("../images/footerImage.jpg");
     background-color: rgb(0, 84, 117);
@@ -65,13 +70,28 @@ footer ul {
 .head-main {
     background-color: #03a3df;
     padding-left: 15px;
+    display: grid;
+    grid-template-columns: 75% repeat(2, 10%) 5%;
 }
 
 .head-main img {
     height: 50px;
 }
 
-.head-main a {
+.header-button {
     color: black;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.header-button:not(.current-page):hover {
+    background-color: #1b447f;
+}
+
+.current-page {
+    background-color: #ecb722;
 }
