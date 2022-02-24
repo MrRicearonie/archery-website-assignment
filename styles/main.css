@@ -1,0 +1,43 @@
+.invisible {
+    display: none;
+}
+
+.main-page-buttons {
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-container {
+    overflow: hidden;
+}
+
+.main-button {
+    height: 95vh;
+    box-shadow: inset 0 0 0 1000px rgba(3, 163, 223, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    transition: all 0.75s ease-in-out;
+}
+
+.main-button:hover {
+    box-shadow: inset 0 0 0 1000px rgba(3, 163, 223, 0.5);
+    transform: scale(1.05);
+}
+
+.services-button {
+    background-image: url(../images/target-ge5c57bf14_1920.jpg);
+}
+
+.main-button p {
+    background-color: rgba(27, 68, 127, 0.75);
+    color: rgb(255, 255, 255);
+}
+
+.about-button {
+    background-image: url(../images/aiming-geb07b6995_1920.jpg);
+}

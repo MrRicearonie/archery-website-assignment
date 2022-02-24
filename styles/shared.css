@@ -26,8 +26,9 @@ body {
 footer {
     background-image: url("../images/footerImage.jpg");
     background-color: rgb(0, 84, 117);
+    background-size: cover;
     display: grid;
-    grid-template-columns: repeat(12, 8.33%);
+    grid-template-columns: repeat(12, 1fr);
     color: rgb(230, 230, 230);
     padding: 15px 15px 15px 15px;
 }
@@ -72,6 +73,9 @@ footer ul {
     padding-left: 15px;
     display: grid;
     grid-template-columns: 75% repeat(2, 10%) 5%;
+    position: sticky;
+    top: 0px;
+    z-index: 100000;
 }
 
 .head-main img {
