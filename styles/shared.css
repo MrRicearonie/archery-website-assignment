@@ -1,0 +1,77 @@
+/* Fonts */
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url("../fonts/NotoSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: "NotoSans-Bold";
+    src: url("../fonts/NotoSans-Bold.ttf")
+}
+
+@font-face {
+    font-family: "NotoSans-Italic";
+    src: url("../fonts/NotoSans-Italic.ttf")
+}
+
+html {
+    font-family: "NotoSans-Regular", sans-serif;
+}
+
+footer {
+    background-image: url("../images/footerImage.jpg");
+    background-color: rgb(0, 84, 117);
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    color: rgb(230, 230, 230);
+    padding: 15px 15px 15px 15px;
+}
+
+footer img {
+    grid-column: 1 / span 4;
+}
+
+footer a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    transition: color 0.15s ease-out;
+}
+
+footer a:hover {
+    color: rgb(74, 184, 248);
+}
+
+footer ul {
+    margin-top: -15px;
+    padding-left: 15px;
+}
+
+.services {
+    grid-column: 4 / span 4;
+}
+
+.about {
+    grid-column: 9 / span 4;
+}
+
+.nondiscriminatory {
+    grid-column: 1 / span 12;
+}
+
+.copywrite {
+    grid-column: 1 / span 12;
+}
+
+.head-main {
+    background-color: #03a3df;
+    padding-left: 15px;
+}
+
+.head-main img {
+    height: 50px;
+}
+
+.head-main a {
+    color: black;
+    text-decoration: none;
+}
