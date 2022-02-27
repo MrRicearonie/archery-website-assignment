@@ -23,12 +23,12 @@ body {
     padding: 0px;
 }
 
-section:not(.main-page-buttons) {
+/* section:not(.main-page-buttons) {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
 
 h2 {
     margin: 0px;
@@ -61,6 +61,17 @@ footer a:hover {
 footer ul {
     margin-top: -15px;
     padding-left: 15px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .services {
@@ -96,10 +107,6 @@ footer ul {
 .header-button {
     color: black;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
     transition: background-color 0.25s ease-in-out;
 }
 
@@ -113,4 +120,8 @@ footer ul {
 
 .contact {
     background-color: #ecb722;
+}
+
+.gmaps {
+    border-radius: 5px;
 }
