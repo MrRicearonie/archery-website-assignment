@@ -6,6 +6,7 @@
         <link rel="shortcut icon" href="images/archeryAcademy-logo-favicon.png">
         <Title>Services | Straight to the Point Archery</Title>
         <link rel="stylesheet" type="text/css" href="styles/shared.css">
+        <link rel="stylesheet" type="text/css" href="styles/services.css">
     </head>
 
     <body>
@@ -18,19 +19,21 @@
         </header>
 
         <div class="content">
-            <section>
-                <header>
+            <section class="container">
+                <header class="services-header">
                     <h2>Services</h2>
+                    <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign
+                    up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.
+                    Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts
+                    achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the
+                    youth in our community through the wonderful discipline of archery.</p>
                 </header>
-                <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign
-                up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.
-                Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts
-                achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the
-                youth in our community through the wonderful discipline of archery.</p>
     
-                <section id="classes">
-                    <h3>CLASSES</h3>
-                    <p>New to archery, or want to build up your skill? We have a class for that! Each class comes with all required equipment, but bring your own safety kits.</p>
+                <section id="classes" class="container">
+                    <header>
+                        <h3>CLASSES</h3>
+                        <p>New to archery, or want to build up your skill? We have a class for that! Each class comes with all required equipment, but bring your own safety kits.</p>
+                    </header>
     
                     <!-- Each class will be in a block, either stacked side by side, or vertically (we'll see when we start stying it)-->
                     <article>
@@ -39,7 +42,8 @@
                         archery form, range rules and etiquette. Form training and fun games are introduced in this class.</p>
                         <p>Cost: $120/month</p>
                         <p>Schedule: Mondays and Wednesdays, 4-5pm</p>
-                        <p>Prerequisite: Interest in learning about the sport of archery. Minimum age 8 years old or 7 w/ pre-evaluation.</p>
+                        <p>Prerequisite: Interest in learning about the sport of archery.</p>
+                        <p>Minimum Age: 8 years old or 7 w/ pre-evaluation.</p>
                     </article>
     
                     <article>
@@ -48,7 +52,8 @@
                         styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.</p>
                         <p>Cost: $120/month</p>
                         <p>Schedule: Tuesdays and Thursdays, 4-5pm</p>
-                        <p>Prerequisite: A101 or recommendation from private lesson instructor. Minimum age 7 years old.</p>
+                        <p>Prerequisite: A101 or recommendation from private lesson instructor.</p>
+                        <p>Minimum Age: 7 years old.</p>
                     </article>
     
                     <article>
@@ -59,13 +64,16 @@
                         on personal equipment selections.</p>
                         <p>Cost: $120/month</p>
                         <p>Schedule: Tuesdays and Thursdays, 5-6pm</p>
-                        <p>Prerequisite: A101/A102 or equivalent. Minimum age 7 years old.</p>
+                        <p>Prerequisite: A101/A102 or equivalent.</p>
+                        <p>Minimum Age: 7 years old.</p>
                     </article>
                 </section>
     
-                <section id="private-lessons">
-                    <h3>PRIVATE LESSONS</h3>
-                    <p>Want to get more one-on-one time with an instructor or can't make it to one of the classes? Then our private lessons are made for you! Just make sure to bring your own equipment.</p>
+                <section id="private-lessons" class="container">
+                    <header>
+                        <h3>PRIVATE LESSONS</h3>
+                        <p>Want to get more one-on-one time with an instructor or can't make it to one of the classes? Then our private lessons are made for you! Just make sure to bring your own equipment.</p>
+                    </header>
                     <article>
                         <h4>Single Lesson</h4>
                         <p>Get 1 hour of expert guidance by a USA Archery-certified coach.</p>
@@ -81,15 +89,18 @@
                     <article>
                         <h4>10 Lesson Package</h4>
                         <p> Get 10, 1 hour lessons with expert guidance by a USA Archery-certified coach.</p>
+                        <p>Price: $380</p>
                     </article>
                 </section>
             </section>
-    
-            <section class="contact">
-                <header>
-                    <h2>Contact Us!</h2>
-                    <p>Have any questions, want to sign up or set up an event? Contact us and we'll be pleased to help!</p>
-                </header>
+        </div>
+            
+        <section class="contact">
+            <header>
+                <h2>Contact Us!</h2>
+                <p>Have any questions, want to sign up or set up an event? Contact us and we'll be pleased to help!</p>
+            </header>
+            <div class="center-contact">
                 <div class="contact-content">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2712.5900168549647!2d-122.53756014814913!3d47.16588352620766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s528%20Nock%20Point%20Ln%20Tacoma%2C%20WA%2098412!5e0!3m2!1sen!2sus!4v1644961356791!5m2!1sen!2sus"
@@ -104,21 +115,21 @@
                         <a href="tel:+12535551010">(253)555-1010</a>
                     </address>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
         <!-- Have the logo, services, and about side by side for desktop -->
         <footer>
             <a href="index.html"><img src="images/archeryAcademy-logo-white.png" alt="Archery Academy logo"></a>
             <section class="services">
-                <h3>Services</h3>
+                <a href="services.html"><h3>Services</h3></a>
                 <ul>
                     <li><a href="services.html#classes">Classes</a></li>
                     <li><a href="services.html#private-lessons">Private Lessons</a></li>
                 </ul>
             </section>
             <section class="about">
-                <h3>About</h3>
+                <a href="about.html"><h3>About</h3></a>
                 <ul>
                     <li><a href="about.html#mission">Our Mission</a></li>
                     <li><a href="about.html#staff">Staff</a></li>
