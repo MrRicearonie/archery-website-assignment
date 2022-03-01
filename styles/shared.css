@@ -21,6 +21,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(246,246,246);
 }
 
 /* section:not(.main-page-buttons) {
