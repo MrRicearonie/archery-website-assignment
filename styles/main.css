@@ -108,3 +108,10 @@
 .quote {
     margin-left: 10px;
 }
+
+.video {
+    max-width: 1000px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
